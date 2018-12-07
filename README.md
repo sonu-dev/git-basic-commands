@@ -116,19 +116,7 @@ More...
 3.	Git gc [run garbage collector for repository, optimize repository, should be run occasionally ]
 4.	Git grep <word/phrase> [show all occurrences into the whole tree, it is a case sensitive search]
 
-Config settings suggested by Jaakko:
-git config --global push.default simple
-git config --global core.autocrlf false
-git config --global diff.tool kdiff3
-git config --global credential.helper "!'C:/Program Files (x86)/Git/libexec/git-core/git-credential-store.exe'"
-git config --global core.preloadindex true
-git config --global core.fscache true
-git config --global merge.renamelimit 6816
-git config --global http.postbuffer 524288000
-git config --global alias.in "log ..@{upstream}"
-git config --global alias.out "log @{upstream}.."
-git config --global alias.indiff "difftool -d ..@{upstream}"
-git config --global alias.outdiff "difftool -d @{upstream}.." 
+
 
 
 
